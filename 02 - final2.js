@@ -6,7 +6,6 @@ const reverser = string => {
   let length = 0;
   for(let i in string) {
     length += 1;
-    i++;
   }
 
   let reversedString = '';
