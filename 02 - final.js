@@ -3,8 +3,12 @@
 
 
 const reverser = string => {
-  return string.split('').reverse().join('');
+  let e = '';
+  for(let i = string.length - 1; i >= 0; i--) {
+    e += string[i];
+  }
+  return e;
 }
 
 
-console.log(reverser('robotzsaru'));
+console.log(reverser('hello robotzsaru'));
